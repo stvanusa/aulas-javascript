@@ -1,3 +1,3 @@
-document.getElementById("meuBotao").addEventListener('click',function(){
-    alert('botao clicado')
+document.getElementById("botao").addEventListener('click',function(){
+    alert('Botao clicado')
 })
