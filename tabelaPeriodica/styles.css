@@ -1,0 +1,78 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo geral da tabela */
+table {
+
+  width: 50%;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+/* Estilo das células da tabela */
+td,
+th {
+  border: 1px solid #333; /* Escurecido a borda para contraste */
+  padding: 10px; /* Padding para maior clareza */
+  text-align: center;
+}
+
+/* Estilo do cabeçalho da tabela */
+.header {
+  background-color: #ffcccb; /* Cor de fundo intensa para o cabeçalho */
+  font-weight: bold; /* Destaca o texto do cabeçalho */
+  color: #333; /* Cor do texto do cabeçalho */
+}
+
+/* Estilo dos elementos químicos */
+.element {
+  padding: 10px; /* Padding para melhor visualização dos elementos */
+  vertical-align: middle; /* Alinha o conteúdo verticalmente */
+  color: #000; /* Cor do texto dos elementos */
+}
+
+/* Estilo para cada grupo de elementos */
+.alkali {
+  background-color: #ff6666; /* Metais Alcalinos */
+}
+
+.alkaline-earth {
+  background-color: #66ff66; /* Metais Alcalino-Terrosos */
+}
+
+.transition {
+  background-color: #66b3ff; /* Metais de Transição */
+}
+
+.post-transition {
+  background-color: #ffffff; /* Metais Pós-Transição */
+}
+
+.metalloids {
+  background-color: #b3b3b3; /* Metaloides */
+}
+
+.nonmetals {
+  background-color: #99ff99; /* Não-Metais */
+}
+
+.halogens {
+  background-color: #ff9999; /* Halogênios */
+}
+
+.noble-gases {
+  background-color: #99ccff; /* Gases Nobres */
+}
+
+/* Ajustes para a tabela */
+thead th {
+  background-color: #ff9999; /* Cor de fundo intensa para o cabeçalho */
+  color: #333; /* Cor do texto do cabeçalho */
+}
+
+tbody td {
+  background-color: #ffffff; /* Cor de fundo para o corpo da tabela */
+}
