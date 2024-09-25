@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário de Categorias</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h3>Categorias</h3>
-      <form action="#">
-        <label for="tipo">Tipo</label>
-        <input type="text" placeholder="tipo" required />
-        <button type="submit">Enviar</button>
-      </form>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h3>Categorias</h3>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="tipo">Tipo</label>
+                <input type="text" id="tipo" class="form-control" placeholder="Tipo" required />
+            </div>
+            <button class="btn-success" type="submit">Enviar</button>
+        </form>
     </div>
-  </body>
+    <script src="/bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="/bootstrap/popper.min.js"></script>
+    <script src="/bootstrap/bootstrap.min.js"></script>
+</body>
 </html>
+

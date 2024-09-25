@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Ordem de Serviço</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Ordem de Serviço</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="cliente">Cliente:</label>
+                <input type="text" class="form-control" id="cliente" name="cliente" required>
+            </div>
+
+            <div class="form-group">
+                <label for="servico">Serviço:</label>
+                <input type="text" class="form-control" id="servico" name="servico" required>
+            </div>
+
+            <div class="form-group">
+                <label for="data-servico">Data do Serviço:</label>
+                <input type="date" class="form-control" id="data-servico" name="data-servico" required>
+            </div>
+
+            <div class="form-group">
+                <label for="empresa">Empresa:</label>
+                <input type="text" class="form-control" id="empresa" name="empresa" required>
+            </div>
+
+            <div class="form-group">
+                <label for="data-finalizacao">Data da Finalização:</label>
+                <input type="date" class="form-control" id="data-finalizacao" name="data-finalizacao" required>
+            </div>
+
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <select id="status" name="status" class="form-control" required>
+                    <option value="" disabled selected>Selecione o status</option>
+                    <option value="em-andamento">Em Andamento</option>
+                    <option value="concluido">Concluído</option>
+                    <option value="cancelado">Cancelado</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
